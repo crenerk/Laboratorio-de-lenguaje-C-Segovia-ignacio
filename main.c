@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "validaciones.h"
+#include "simulador.h"
 
 int main(void)
 {
