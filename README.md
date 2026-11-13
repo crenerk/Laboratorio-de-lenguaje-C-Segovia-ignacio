@@ -9,7 +9,7 @@ Repositorio: https://github.com/crenerk/Laboratorio-de-lenguaje-C-Segovia-ignaci
 ## a) Integrantes y comision
 
 | Integrante | Legajo | Comision |
-|---|---|
+|---|---|---|
 | Ignacio Javier Segovia Cendra | 30458 | 1.2 |
 
 Trabajo realizado de forma **individual**, con conocimiento y acuerdo del profesor de la catedra.
