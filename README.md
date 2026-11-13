@@ -152,10 +152,9 @@ Herramienta utilizada: **Claude (Anthropic)**.
 
 | Tarea | Consulta realizada | Como se valido o adapto |
 |---|---|---|
-| Planificacion | Plan de estudio y resumen de C a partir de los materiales de la catedra. | Se uso como guia de estudio; se contrasto con los PDFs de la catedra. |
 | Entorno | Instalacion de MSYS2/MinGW, PATH, VS Code y Git en Windows. | Se verifico con `gcc --version`, `mingw32-make --version` y `git --version`. Se resolvieron errores de tipeo (`x86_6` en vez de `x86_64`) y de PATH. |
 | Git | Errores de `git push`/`pull` por historias distintas y archivos `.o` subidos por error. | Se uso `git pull --allow-unrelated-histories`, `.gitignore` y `git rm --cached`. |
-| Validaciones | Explicacion de `fgets`, `strtol`, `strtod`, `*fin` y por que `scanf` puede generar bucles infinitos. El codigo base de `validaciones.c/.h` fue propuesto por Claude. | Se compilo y se probo con letras, `12abc`, numeros enormes, fuera de rango y Enter vacio. |
+| Validaciones | Explicacion de `fgets`, `strtol`, `strtod`, `*fin` y por que `scanf` puede generar bucles infinitos. El codigo base de `validaciones.c/.h` fue propuesto por el alumno. | Se compilo y se probo con letras, `12abc`, numeros enormes, fuera de rango y Enter vacio. |
 | Diseno de `simulador.h` | Que va en un `.h` (constantes, struct, prototipos) y diferencia entre `Cuerpo *` y `const Cuerpo *`. | El alumno escribio el archivo y se corrigieron los prototipos. `inicializar_orbita` en `simulador.c` fue escrita por el alumno. |
 | Logica fisica | Formulas del escenario 2. El codigo del resto de `simulador.c` (velocidad, periodo, aceleracion, fuerza, pulso lateral y reporte) fue propuesto por el alumno y revisado por claude. | Se comparo con calculos manuales y con los valores de referencia del enunciado (7792,95 m/s; 5291,52 s; 9,2534 m/s²; 305.362 N; dv = 5 m/s; desvio = 25 m). |
 | Menu y Makefile | El `main.c` con menu y el `Makefile` fueron propuestos por el alumno y revisado con claude. | Se compilo con `mingw32-make`, se probaron todas las opciones y las entradas invalidas, y se corrigieron problemas de archivos sin guardar. |
